@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    align-items: stretch;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.grid > article {
+    border: 1px solid #cccc;
+}
+
+.grid .text {
+    padding: 20px;
+}
